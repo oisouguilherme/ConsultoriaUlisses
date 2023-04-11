@@ -3,7 +3,7 @@ import { ItemLista } from "./ItemLista";
 
 export function Conteudo() {
   return (
-    <section id="Conteudo" className="py-24 space-y-12 text-white">
+    <section id="Conteudo" className="py-24 space-y-12">
       <h2 className="text-center text-3xl font-black text-roxo">
         O que irá aprender na mentoria:
       </h2>
@@ -20,7 +20,7 @@ export function Conteudo() {
             <ItemLista text={"Crie seu primeiro produto"}/>
             <ItemLista text={"Aprenda a vender pelo Instagram"}/>
             <ItemLista text={"Como criar stories que conectam"}/>
-            <ItemLista text={"365 ideias de conteúdo"}/>
+            <ItemLista text={"+100 ideias de conteúdo"}/>
           </ul>
         </div>
       </div>

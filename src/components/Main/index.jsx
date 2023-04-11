@@ -2,7 +2,7 @@ import bg from "../../assets/ULISSES3.png";
 import { ButtonCompra } from "./ButtonCompra";
 export function Main() {
   return (
-    <section id="main" className="text-center space-y-12 flex flex-col-reverse lg:flex-row items-center text-white gap-4">
+    <section id="main" className="text-center space-y-12 flex flex-col-reverse lg:flex-row items-center gap-4">
       <div className="w-full lg:w-2/3 space-y-1 block">
         <p className="text-3xl font-black mb-5 text-roxo">
           Não saber como usar o Instagram para se comunicar com seus seguidores

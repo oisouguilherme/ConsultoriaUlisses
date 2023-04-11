@@ -8,7 +8,7 @@ import { Footer } from "./components/Footer"
 function App() {
 
   return (
-    <div className="teste h-full w-full px-8 md:px-24 py-12 pb-0 bg-black">
+    <div className="teste h-full w-full px-8 md:px-24 py-12 pb-0 bg-white">
       <Header/>
       <Main />
       <Conteudo />

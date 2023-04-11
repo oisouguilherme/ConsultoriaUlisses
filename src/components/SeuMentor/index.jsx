@@ -2,7 +2,7 @@ import mentor from "../../assets/mentor.jpg";
 
 export function SeuMentor() {
   return (
-    <section id="Mentor" className="space-y-8 text-white mb-24">
+    <section id="Mentor" className="space-y-8 mb-24">
       <h2 className="text-3xl font-black text-center text-roxo">Seu mentor:</h2>
       <div className="flex justify-around items-center lg:items-start flex-col-reverse lg:flex-row">
         <img className="w-96 rounded-full" src={mentor} alt="" />
@@ -13,7 +13,7 @@ export function SeuMentor() {
             Trabalho há 8 anos com vendas, marketing e comunicação.
           </p>
           <a href="#" 
-          className="flex gap-4 bg-roxo px-12 py-4 rounded-md shadow-xl hover:shadow-roxoclaro hover:scale-105 font-bold">
+          className="flex gap-4 text-white bg-roxo px-12 py-4 rounded-md shadow-xl hover:shadow-roxoclaro hover:scale-105 font-bold">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
