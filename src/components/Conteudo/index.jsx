@@ -8,8 +8,8 @@ export function Conteudo() {
         O que irá aprender na mentoria:
       </h2>
       <div className="flex flex-wrap-reverse justify-around gap-12 md:gap-0">
-        <div className="text-center space-y-2">
-          <img src={livro} alt="" />
+        <div className=" flex flex-col items-center text-center space-y-2 mt-12 lg:mt-0">
+          <img className="w-72" src={livro} alt="" />
           <p className="font-medium text-xl">Melhor aluno ganhará um livro <span className="text-roxo font-bold">GRÁTIS</span> .</p>
         </div>
         <div className="text-2xl ">

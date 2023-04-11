@@ -5,6 +5,7 @@ import { Conteudo } from "./components/Conteudo"
 import { SeuMentor } from "./components/SeuMentor"
 import { ButtonCompra } from "./components/Main/ButtonCompra"
 import { Footer } from "./components/Footer"
+import { Feedback } from "./components/Feedback"
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Main />
       <Conteudo />
+      <Feedback/>
       <SeuMentor/>
       <ButtonCompra text={"Compre agora"}/>
       <Footer/>

@@ -30,7 +30,7 @@ export function Main() {
         <ButtonCompra text={'Comprar agora'}/>
       </div>
       <div className="w-full lg:w-1/2 pb-8 md:pb-0">
-        <img className="rounded-full shadow-2xl hover:shadow-roxo" src={bg} alt="" />
+        <img className="rounded-md shadow-2xl hover:shadow-roxo" src={bg} alt="" />
       </div>
     </section>
   );
