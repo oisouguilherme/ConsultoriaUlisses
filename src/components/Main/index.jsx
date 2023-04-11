@@ -1,9 +1,10 @@
 import bg from "../../assets/ULISSES3.png";
+import { ButtonCompra } from "./ButtonCompra";
 export function Main() {
   return (
-    <div className="text-center flex items-center ">
-      <div className="w-2/3 space-y-1 block">
-        <p className="text-3xl font-black mb-5">
+    <section id="main" className="text-center space-y-12 flex flex-col-reverse lg:flex-row items-center text-white gap-4">
+      <div className="w-full lg:w-2/3 space-y-1 block">
+        <p className="text-3xl font-black mb-5 text-roxo">
           Não saber como usar o Instagram para se comunicar com seus seguidores
           te incomoda?
         </p>
@@ -18,18 +19,19 @@ export function Main() {
         </p>
         <p className="text-xl">As mentorias serão nos dias 24, 25,26 de abril </p>
         <p className="text-xl">Todos os encontros acontecerão às 20h pela plataforma ZOOM.</p>
-        <div className="text-xl font-bold ">
-          <p className="mt-8">
+        <div className="text-2xl font-bold py-12 cursor-pointer ">
+          <p className="line-through">
             De: <span>R$ 497,00</span>
           </p>
-          <p>
+          <p className="">
             Por: 2X de <span>R$ 97,00</span>
           </p>
         </div>
+        <ButtonCompra text={'Comprar agora'}/>
       </div>
-      <div className="w-1/2">
-        <img src={bg} alt="" />
+      <div className="w-full lg:w-1/2 pb-8 md:pb-0">
+        <img className="rounded-full shadow-2xl hover:shadow-roxo" src={bg} alt="" />
       </div>
-    </div>
+    </section>
   );
 }
