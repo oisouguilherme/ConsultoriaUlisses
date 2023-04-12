@@ -7,7 +7,7 @@ export function Header(){
       <div className="flex justify-between items-center flex-col md:flex-row text-center space-y-4">
         <img src={logo} alt="" className="w-48" />
         <ul className="flex space-x-12 font-medium text-xl cursor-pointer">
-          <li className='hover:scale-x-110 hover:text-roxoclaro'><Link to=''>Inicio</Link></li>
+          <li className='hover:scale-x-110 hover:text-roxoclaro '><Link to=''>Inicio</Link></li>
           <li className='hover:scale-x-110 hover:text-roxoclaro'><Link to='Conteudo' smooth={true} duration={500}>Modulos</Link></li>
           <li className='hover:scale-x-110 hover:text-roxoclaro'><Link to='Mentor' smooth={true} duration={500}>Sobre</Link></li>
         </ul>

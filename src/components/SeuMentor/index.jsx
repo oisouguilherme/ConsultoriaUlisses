@@ -12,7 +12,8 @@ export function SeuMentor() {
             a primeira agência de marketing digital de Buritis, MG. <br />{" "}
             Trabalho há 8 anos com vendas, marketing e comunicação.
           </p>
-          <a href="#" 
+          <a href="https://www.instagram.com/oulissesalmeida/"
+          target="_blank" 
           className="flex gap-4 text-white bg-roxo px-12 py-4 rounded-md shadow-xl hover:shadow-roxoclaro hover:scale-105 font-bold">
             <svg
               xmlns="http://www.w3.org/2000/svg"

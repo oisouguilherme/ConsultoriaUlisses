@@ -1,8 +1,8 @@
 export function ButtonCompra({text}){
   return(
-    <div className="md:w-1/2 mx-auto bg-roxo rounded-md py-4 text-xl font-black shadow-xl hover:shadow-roxoclaro hover:scale-105 text-center text-white">
+    <div className="md:w-1/2 mx-auto lg:mx-0 bg-roxo rounded-md py-4 text-xl font-black shadow-xl hover:shadow-roxoclaro hover:scale-105 text-center text-white">
           <a 
-          href="#">{text}</a>
+          href="https://pay.hotmart.com/P81373984C" target="_blank">{text}</a>
         </div>
   )
 }
