@@ -32,7 +32,7 @@ export function Main() {
         <ButtonCompra text={'Comprar agora'}/>
       </div>
       <div className="w-3/4 lg:w-2/3 pb-8 md:pb-0 lg:absolute lg:-right-24 lg:-top-28">
-        <img className=" hover:shadow-roxo" src={bg} alt="" />
+        <img className=" hover:shadow-roxo" src={bg} alt=" imagem do seu mentor lisses" />
       </div>
     </section>
   );

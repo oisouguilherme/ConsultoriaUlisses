@@ -5,7 +5,7 @@ export function SeuMentor() {
     <section id="Mentor" className="space-y-8 mb-24">
       <h2 className="text-3xl font-black text-center text-roxo">Seu mentor:</h2>
       <div className="flex justify-around items-center lg:items-start flex-col-reverse lg:flex-row">
-        <img className="w-96 rounded-full" src={mentor} alt="" />
+        <img className="w-96 rounded-full" src={mentor} alt="Imagem do seu mentor, Ulisses" />
         <div className="text-2xl p-12 text-center space-y-24 flex flex-col items-center">
           <p>
             Sou Ulisses, engenheiro, especialista em Gestão Estratégica, fundei

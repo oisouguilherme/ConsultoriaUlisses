@@ -9,7 +9,7 @@ export function Conteudo() {
       </h2>
       <div className="flex flex-wrap-reverse justify-around gap-12 md:gap-0">
         <div className=" flex flex-col items-center text-center space-y-2 mt-12 lg:mt-0">
-          <img className="w-72" src={livro} alt="" />
+          <img className="w-72" src={livro} alt="imagem da capa do livro Isso é Marketing do Seth Godin" />
           <p className="font-medium text-xl">Melhor aluno ganhará um livro <span className="text-roxo font-bold">GRÁTIS</span> .</p>
         </div>
         <div className="text-2xl ">

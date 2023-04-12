@@ -24,20 +24,20 @@ export function Feedback() {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img className="w-96 cursor-pointer" src={zap3} alt="" />
+            <img className="w-96 cursor-pointer" src={zap3} alt="imagem whatsapp" />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="w-96 cursor-pointer hover:-translate-y-28 transition duration-500"
               src={zap2}
-              alt=""
+              alt="imagem whatsapp"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               className="w-96 cursor-pointer hover:-translate-y-80 transition duration-500"
               src={zap1}
-              alt=""
+              alt="imagem whatsapp"
             />
           </SwiperSlide>
         </Swiper>
