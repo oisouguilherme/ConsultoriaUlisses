@@ -8,7 +8,7 @@ export function Compra() {
           E qual o <span className="text-roxo">valor?</span>{" "}
         </p>
         <p>
-          Tudo isso será um investimento <br /> de
+          Tudo isso por um investimento<br /> de:
         </p>
         <p className="opacity-60 line-through">R$ 497,00</p>
         <p>Por apenas:</p>

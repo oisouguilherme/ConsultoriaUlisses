@@ -24,8 +24,8 @@ export function Main() {
           <p className="line-through">
             De: <span>R$ 497,00</span>
           </p>
-          <p className="">
-            Por: 2X de <span>R$ 102,79</span>
+          <p className="text-3xl">
+            Por: 2x de <span className="text-4xl">R$ 97,00</span>
           </p>
         </div>
         <ButtonCompra text={'Comprar agora'}/>
