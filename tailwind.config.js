@@ -10,7 +10,7 @@ export default {
         'roxo': '#5700d3',
         'roxoclaro': '#cf36d5',
         'rosa': '#fe37ff',
-        'vermelho': '#ec162e',
+        'preto': '#0d0d0d',
       },
     },
   },

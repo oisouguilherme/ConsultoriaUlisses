@@ -2,13 +2,13 @@ import { Link } from "react-scroll";
 
 export function Footer() {
   return (
-    <section className=" text-center pt-12 pb-2 flex flex-col items-center">
-      <Link to="header" smooth={true} duration={500} className="w-fit flex flex-col gap-1 cursor-pointer items-center py-8 hover:scale-110 font-bold text-lg ">
+    <section className="text-center pb-2 pt-6 flex flex-col items-center px-8 md:px-24 bg-black">
+      <Link to="main" smooth={true} duration={500} className="w-fit flex flex-col gap-1 cursor-pointer items-center pb-8 hover:scale-110 font-bold text-lg ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="32"
           height="32"
-          fill="black"
+          fill="white"
           class="bi bi-arrow-up-circle"
           viewBox="0 0 16 16"
         >

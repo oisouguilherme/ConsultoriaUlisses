@@ -6,10 +6,11 @@ import "swiper/css";
 
 export function Feedback() {
   return (
-    <div className="text-center py-24 pt-0 ">
-      <h2 className="text-3xl font-black mb-12 text-roxo">
-        Informações para que use na prática:
+    <div className="text-center py-24 px-8 md:px-24 bg-black">
+      <h2 className="text-4xl lg:text-5xl font-black mb-4 text-roxo">
+        Depoimentos:
       </h2>
+      <p className="text-xl font-bold mb-12">Alguns profissionais que já estão utilizando as informações que você irá aprender:</p>
       <ul className="flex justify-center gap-8 flex-wrap h-64 overflow-hidden ">
         <Swiper
           breakpoints={{
