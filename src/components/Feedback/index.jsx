@@ -3,6 +3,8 @@ import zap2 from "../../assets/zap/zap2.jpeg";
 import zap3 from "../../assets/zap/zap3.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import 'swiper/css/navigation';
+import { Navigation } from "swiper";
 
 export function Feedback() {
   return (
@@ -11,8 +13,10 @@ export function Feedback() {
         Depoimentos:
       </h2>
       <p className="text-xl font-bold mb-12">Alguns profissionais que já estão utilizando as informações que você irá aprender:</p>
-      <ul className="flex justify-center gap-8 flex-wrap h-64 overflow-hidden ">
+      <ul className="flex justify-top gap-8 flex-wrap">
         <Swiper
+          modules={[Navigation]}
+          navigation={true}
           breakpoints={{
             620: {
               width: 620,
@@ -25,22 +29,21 @@ export function Feedback() {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img className="w-96 cursor-pointer" src={zap3} alt="imagem whatsapp" />
+            <div className="h-64 overflow-hidden">
+            <img className=" w-96 cursor-pointer hover:-translate-y-32 duration-300" src={zap2} alt="imagem whatsapp" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="w-96 cursor-pointer hover:-translate-y-28 transition duration-500"
-              src={zap2}
-              alt="imagem whatsapp"
-            />
+            <div className="h-64 overflow-hidden">
+            <img className=" w-96 cursor-pointer" src={zap3} alt="imagem whatsapp" />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="w-96 cursor-pointer hover:-translate-y-80 transition duration-500"
-              src={zap1}
-              alt="imagem whatsapp"
-            />
+            <div className="h-64 overflow-hidden ">
+            <img className=" w-96 cursor-pointer hover:-translate-y-80 duration-300" src={zap1} alt="imagem whatsapp" />
+            </div>
           </SwiperSlide>
+        
         </Swiper>
       </ul>
     </div>

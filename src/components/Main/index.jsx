@@ -12,7 +12,7 @@ export function Main() {
         Quer aprender a usar o seu Instagram para transformar os seus seguidores em clientes?
         </p>
         <p className="text-xl md:text-3xl font-bold">
-        Você irá participar de uma mentoria on-line pelo  ZOOM, durante três dias irá aprender tudo que deseja sobre transformar a sua audiência em clientes através do Instagram. 
+        Você irá participar de uma mentoria on-line pelo  ZOOM, durante três dias irá aprender como transformar a sua audiência em clientes através do Instagram. 
         </p>
         <p className="text-xl md:text-3xl font-bold">
         Após a sua compra, iremos te enviar todas as instruções por e-mail e o link de acesso. 
