@@ -14,7 +14,6 @@ export function Compra() {
         <p className="opacity-60 line-through">R$ 497,00</p>
         <p>Por apenas:</p>
         <p className="text-4xl text-roxo font-black"><span className="text-2xl font-bold text-white opacity-60">2x </span>R$ 97,00</p>
-        <p className="font-medium opacity-60">Em até 2x no cartão</p>
         <div className="w-full mx-auto bg-roxo rounded-md py-4 text-xl font-black shadow-xl hover:shadow-roxoclaro hover:scale-105 text-center text-white duration-300">
           <a href="https://pay.hotmart.com/P81373984C" target="_blank">
             Comprar agora

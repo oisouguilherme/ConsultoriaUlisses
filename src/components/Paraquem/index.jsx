@@ -1,7 +1,7 @@
 export function Paraquem() {
   return (
     <div className="space-y-2 text-xl bg-preto px-4 py-24 lg:px-24">
-      <h2 className="text-4xl lg:text-5xl text-roxo te font-black mb-16">
+      <h2 className="text-4xl text-center lg:text-5xl text-roxo te font-black mb-16">
         Para quem é a mentoria?
       </h2>
       <div className="flex flex-wrap gap-12 justify-center">
