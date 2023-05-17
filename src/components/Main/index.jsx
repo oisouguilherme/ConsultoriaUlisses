@@ -17,7 +17,7 @@ export function Main() {
         <p className="text-xl md:text-3xl font-bold">
         Após a sua compra, iremos te enviar todas as instruções por e-mail e o link de acesso. 
         </p>
-        <p className="text-xl md:text-3xl font-bold">As mentorias serão nos dias 29, 30,31  de mail pelo ZOOM às 20h.
+        <p className="text-xl md:text-3xl font-bold">As mentorias serão nos dias 29, 30,31  de maio pelo ZOOM às 20h.
 </p>
         
         <div className="text-xl md:text-3xl font-bold py-12 cursor-pointer ">
